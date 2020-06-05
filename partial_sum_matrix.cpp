@@ -16,8 +16,8 @@ for (int i = 1 ; i < n ;i ++ ){
     }
 }
 }
-long long sum (l1,c1,l2c2){
-    return (s[l2][c20] - s[l1-1] - s[l2][c1-1] + s[l1-1][c1-1]);
+long long sum (int l1,int c1, int l2, int c2){
+    return (s[l2][c2] - s[l1-1][c2] - s[l2][c1-1] + s[l1-1][c1-1]);
 }
 
 int main()
